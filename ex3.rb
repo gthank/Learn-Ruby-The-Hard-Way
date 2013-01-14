@@ -2,7 +2,7 @@
 puts "I will now count my chickens:"
 
 # Use the comma operator to output multiple values (a string and a number—the result of some math) to STDOUT.
-puts "Hens", 25 + 30 / 6
+puts "Hens", 25 + 30 / 6.0
 # Use the comma operator to output multiple values (a string and a number—the result of some math) to STDOUT.
 puts "Roosters", 100 - 25 * 3 % 4
 
@@ -10,7 +10,7 @@ puts "Roosters", 100 - 25 * 3 % 4
 puts "I will now count the eggs:"
 
 # Do a bunch of math and print the results.
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4.0 + 6
 
 # Bog-standard I/O stuff.
 puts "Is it true that 3 + 2 < 5 - 7?"
