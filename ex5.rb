@@ -7,8 +7,8 @@ teeth = 'White'
 hair = 'Brown'
 
 puts "Let's talk about %s." % name
-puts "He's %d inches tall." % height
-puts "He's %d pounds heavy." % weight
+puts "He's %d inches (%d centimeters) tall." % [height, height * 2.54]
+puts "He's %d pounds (%d kilograms) heavy." % [weight, weight / 2.20]
 puts "Actually that's not too heavy."
 puts "He's got %s eyes and %s hair." % [eyes, hair]
 puts "His teeth are usually %s depending on the coffee." % teeth
