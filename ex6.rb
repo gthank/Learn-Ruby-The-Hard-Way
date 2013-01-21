@@ -31,4 +31,6 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 # Stick 'w' and 'e' together and print out the result.
+# This works because Ruby defines the '+' operator as string concatenation when
+# dealing with two strings.
 puts w + e
